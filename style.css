@@ -249,13 +249,14 @@ hr.bar {
     position: fixed;
     
     right: 0;
+    left: 0;
     top: 40px;
-    width: 150px;
-    height: 100%;
+    height: auto;
     background: #ff6600;
   }
 
   .menu li {
+    display: block;
     border: 0;
     border-radius: 0;
   }
